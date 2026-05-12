@@ -57,7 +57,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Disc Golf Putting Practice</h1>
+      <h1>PuttiTreeni</h1>
 
       {distances.map((distance) => (
         <div className="row" key={distance}>
