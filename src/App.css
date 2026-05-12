@@ -40,3 +40,53 @@ button {
   font-size: 24px;
   cursor: pointer;
 }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.app {
+  width: 100%;
+  max-width: 100%;
+  padding: 18px;
+}
+
+.row {
+  width: 100%;
+  padding: 22px;
+  margin-bottom: 18px;
+}
+
+.row h2 {
+  font-size: 32px;
+}
+
+.controls {
+  gap: 28px;
+  justify-content: center;
+}
+
+.controls span {
+  font-size: 30px;
+  min-width: 110px;
+  text-align: center;
+}
+
+button {
+  width: 78px;
+  height: 78px;
+  font-size: 38px;
+}
+
+.saveButton {
+  height: 52px;
+  font-size: 20px;
+}
